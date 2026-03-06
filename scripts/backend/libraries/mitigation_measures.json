@@ -1,0 +1,104 @@
+{
+  "measures": [
+    {
+      "id": "mit_001",
+      "title": "Sediment and Erosion Control Plan",
+      "category": "water",
+      "measure_type": "preventive",
+      "description": "Install silt fencing, sediment ponds, and erosion blankets along watercourse boundaries. Maintain 30m riparian buffer zones.",
+      "applicable_impact_factors": ["land_clearing", "excavation", "grading"],
+      "applicable_vecs": ["surface_water_quality", "fish_habitat", "riparian_areas"],
+      "effectiveness": "high"
+    },
+    {
+      "id": "mit_002",
+      "title": "Noise Mitigation Strategy",
+      "category": "noise",
+      "measure_type": "preventive",
+      "description": "Restrict construction to daytime hours (7AM-7PM). Use noise barriers around sensitive receptors. Equipment fitted with mufflers.",
+      "applicable_impact_factors": ["construction_noise", "blasting", "heavy_equipment"],
+      "applicable_vecs": ["residential_areas", "wildlife_habitat", "indigenous_land_use"],
+      "effectiveness": "moderate"
+    },
+    {
+      "id": "mit_003",
+      "title": "Wildlife Movement Corridor Preservation",
+      "category": "terrestrial",
+      "measure_type": "compensatory",
+      "description": "Maintain wildlife crossing structures. Install wildlife-friendly fencing. Schedule construction outside sensitive migration periods.",
+      "applicable_impact_factors": ["habitat_fragmentation", "road_construction", "fencing"],
+      "applicable_vecs": ["wildlife_habitat", "species_at_risk", "migration_routes"],
+      "effectiveness": "high"
+    },
+    {
+      "id": "mit_004",
+      "title": "Air Quality Management Plan",
+      "category": "air",
+      "measure_type": "preventive",
+      "description": "Implement dust suppression (water sprays, chemical stabilisers). Monitor PM2.5 and PM10 at site boundaries. Cease operations during inversions.",
+      "applicable_impact_factors": ["dust_generation", "emissions", "vehicle_traffic"],
+      "applicable_vecs": ["air_quality", "residential_areas", "vegetation"],
+      "effectiveness": "moderate"
+    },
+    {
+      "id": "mit_005",
+      "title": "Spill Prevention and Response",
+      "category": "water",
+      "measure_type": "reactive",
+      "description": "Maintain spill kits at all fuel storage and equipment areas. Secondary containment for hazardous materials. 24-hour spill response protocol.",
+      "applicable_impact_factors": ["fuel_storage", "equipment_maintenance", "pipeline_construction"],
+      "applicable_vecs": ["groundwater", "surface_water_quality", "fish_habitat"],
+      "effectiveness": "high"
+    },
+    {
+      "id": "mit_006",
+      "title": "Greenhouse Gas Emissions Offset Programme",
+      "category": "climate",
+      "measure_type": "compensatory",
+      "description": "Quantify project GHG emissions. Purchase carbon offsets from certified programmes. Implement energy efficiency measures on-site.",
+      "applicable_impact_factors": ["combustion_emissions", "energy_consumption", "flaring"],
+      "applicable_vecs": ["climate_change", "air_quality"],
+      "effectiveness": "moderate"
+    },
+    {
+      "id": "mit_007",
+      "title": "Indigenous Community Engagement Protocol",
+      "category": "social",
+      "measure_type": "preventive",
+      "description": "Establish formal consultation framework with affected First Nations. Integrate Traditional Ecological Knowledge. Benefit-sharing agreements.",
+      "applicable_impact_factors": ["land_use_change", "resource_extraction", "access_road_construction"],
+      "applicable_vecs": ["indigenous_land_use", "cultural_heritage", "traditional_resources"],
+      "effectiveness": "high"
+    },
+    {
+      "id": "mit_008",
+      "title": "Progressive Reclamation Plan",
+      "category": "terrestrial",
+      "measure_type": "restorative",
+      "description": "Reclaim disturbed areas progressively during operations. Use native seed mixes. Restore original topography and drainage patterns.",
+      "applicable_impact_factors": ["land_clearing", "mining", "excavation"],
+      "applicable_vecs": ["vegetation", "wildlife_habitat", "soil_quality", "visual_landscape"],
+      "effectiveness": "moderate"
+    },
+    {
+      "id": "mit_009",
+      "title": "Aquatic Habitat Compensation",
+      "category": "water",
+      "measure_type": "compensatory",
+      "description": "Create or enhance aquatic habitat at 2:1 ratio for any lost habitat. Install fish passage structures. Restore spawning substrate.",
+      "applicable_impact_factors": ["watercourse_crossing", "dam_construction", "water_withdrawal"],
+      "applicable_vecs": ["fish_habitat", "surface_water_quality", "aquatic_species_at_risk"],
+      "effectiveness": "high"
+    },
+    {
+      "id": "mit_010",
+      "title": "Visual Impact Reduction",
+      "category": "visual",
+      "measure_type": "preventive",
+      "description": "Use earth-tone colours for structures. Maintain vegetation screens. Minimise night lighting with directional fixtures.",
+      "applicable_impact_factors": ["structure_construction", "lighting", "land_clearing"],
+      "applicable_vecs": ["visual_landscape", "residential_areas", "tourism"],
+      "effectiveness": "moderate"
+    }
+  ]
+}

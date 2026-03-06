@@ -1,0 +1,177 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ═══════════════════════════════════════════════════════════════
+   WSP Nature Vista — Light Theme (Default & Only)
+   Brand: WSP Red #ff372f | Arial | Light page background
+   This is a LIGHT-ONLY design system per WSP brand standards.
+   ═══════════════════════════════════════════════════════════════ */
+:root {
+  /* Core WSP surfaces */
+  --background: #f5f6f7;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+
+  /* WSP Red primary */
+  --primary: #ff372f;
+  --primary-foreground: #ffffff;
+
+  /* Neutral secondary */
+  --secondary: #e7e7e7;
+  --secondary-foreground: #3d3d3d;
+
+  /* Muted */
+  --muted: #f0f0f0;
+  --muted-foreground: #6d6d6d;
+
+  /* Accent */
+  --accent: #f5f6f7;
+  --accent-foreground: #1a1a1a;
+
+  /* Destructive — WSP secondary red */
+  --destructive: #ca1e2c;
+  --destructive-foreground: #ffffff;
+
+  /* Borders & inputs */
+  --border: #d1d1d1;
+  --input: #e7e7e7;
+  --ring: #ff372f;
+
+  /* Charts — WSP data visualization palette */
+  --chart-1: #ff372f;
+  --chart-2: #2395fa;
+  --chart-3: #1eb300;
+  --chart-4: #fca42b;
+  --chart-5: #9747ff;
+
+  /* Radius */
+  --radius: 0.5rem;
+
+  /* Sidebar — WSP dark */
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #e7e7e7;
+  --sidebar-primary: #ff372f;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #e7e7e7;
+  --sidebar-border: #3d3d3d;
+  --sidebar-ring: #ff372f;
+
+  /* Semantic — from WSP design system */
+  --success: #386d17;
+  --success-foreground: #ffffff;
+  --warning: #c13812;
+  --warning-foreground: #ffffff;
+  --info: #182f74;
+  --info-foreground: #ffffff;
+
+  /* EIA severity scale — mapped to WSP DV colors */
+  --severity-none: #b0b0b0;
+  --severity-low: #2395fa;
+  --severity-moderate: #fca42b;
+  --severity-high: #f14718;
+  --severity-critical: #ca1e2c;
+
+  /* WSP alert backgrounds */
+  --error-bg: #fee7e5;
+  --error-border: #fe7366;
+  --warning-bg: #fff5e5;
+  --warning-border: #ffc466;
+  --success-bg: #e5ffea;
+  --success-border: #63b974;
+  --info-bg: #e5f3ff;
+  --info-border: #66b8ff;
+}
+
+/* Dark variant intentionally removed — WSP is a light-only design system */
+
+/* ═══════════════════════════════════════════════════════════════
+   Tailwind v4 theme tokens
+   ═══════════════════════════════════════════════════════════════ */
+@theme inline {
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-severity-none: var(--severity-none);
+  --color-severity-low: var(--severity-low);
+  --color-severity-moderate: var(--severity-moderate);
+  --color-severity-high: var(--severity-high);
+  --color-severity-critical: var(--severity-critical);
+
+  /* WSP extended palette for data viz */
+  --color-wsp-red: #ff372f;
+  --color-wsp-red-dark: #c8140d;
+  --color-wsp-red-light: #fff2f1;
+  --color-wsp-grey-50: #f5f6f7;
+  --color-wsp-grey-100: #e7e7e7;
+  --color-wsp-grey-400: #888888;
+  --color-wsp-grey-700: #4f4f4f;
+  --color-wsp-grey-900: #3d3d3d;
+  --color-wsp-blue: #2395fa;
+  --color-wsp-green: #1eb300;
+  --color-wsp-orange: #f14718;
+  --color-wsp-yellow: #fed02d;
+  --color-wsp-purple: #9747ff;
+
+  /* Shadows from WSP system */
+  --shadow-wsp: 2px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  --shadow-wsp-hover: 2px 4px 8px 2px rgba(0, 0, 0, 0.15);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

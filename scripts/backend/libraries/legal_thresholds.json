@@ -1,0 +1,72 @@
+[
+  {
+    "id": "threshold_pipeline_length",
+    "project_type_ids": ["pipeline_gas", "pipeline_oil"],
+    "name": "Pipeline Length Threshold",
+    "description": "Pipeline exceeds 40 km in a new right-of-way",
+    "regulatory_ref": "Physical Activities Regulations SOR/2019-285, s. 18(a)",
+    "metric": "pipeline_length_km",
+    "threshold_value": 40,
+    "comparison": "greater_than"
+  },
+  {
+    "id": "threshold_pipeline_capacity",
+    "project_type_ids": ["pipeline_gas"],
+    "name": "Gas Pipeline Capacity Threshold",
+    "description": "Natural gas pipeline with capacity exceeding 500,000 cubic metres per day",
+    "regulatory_ref": "Physical Activities Regulations SOR/2019-285, s. 18(b)",
+    "metric": "capacity_m3_day",
+    "threshold_value": 500000,
+    "comparison": "greater_than"
+  },
+  {
+    "id": "threshold_watercourse",
+    "project_type_ids": ["pipeline_gas", "pipeline_oil", "mine_metal", "hydro_dam"],
+    "name": "Navigable Watercourse Crossing",
+    "description": "Project involves crossing or altering a navigable waterway",
+    "regulatory_ref": "Impact Assessment Act s. 43(b)",
+    "metric": "navigable_watercourse_crossing",
+    "threshold_value": 1,
+    "comparison": "greater_than_or_equal"
+  },
+  {
+    "id": "threshold_indigenous",
+    "project_type_ids": ["pipeline_gas", "pipeline_oil", "mine_metal", "hydro_dam", "wind_farm", "lng_terminal"],
+    "name": "Indigenous Territory",
+    "description": "Project is located in or near established or asserted Indigenous territory",
+    "regulatory_ref": "Impact Assessment Act s. 7(e)",
+    "metric": "indigenous_territory",
+    "threshold_value": 1,
+    "comparison": "greater_than_or_equal"
+  },
+  {
+    "id": "threshold_caribou_habitat",
+    "project_type_ids": ["pipeline_gas", "pipeline_oil", "mine_metal", "wind_farm"],
+    "name": "Caribou Critical Habitat",
+    "description": "Project footprint overlaps with caribou critical habitat identified under SARA recovery strategy",
+    "regulatory_ref": "Species at Risk Act, Federal Recovery Strategy",
+    "metric": "caribou_habitat_overlap_km2",
+    "threshold_value": 0,
+    "comparison": "greater_than"
+  },
+  {
+    "id": "threshold_mine_production",
+    "project_type_ids": ["mine_metal"],
+    "name": "Mine Production Rate Threshold",
+    "description": "Metal mine with ore production capacity of 5,000 tonnes or more per day",
+    "regulatory_ref": "Physical Activities Regulations SOR/2019-285, s. 16",
+    "metric": "ore_production_tonnes_day",
+    "threshold_value": 5000,
+    "comparison": "greater_than_or_equal"
+  },
+  {
+    "id": "threshold_dam_height",
+    "project_type_ids": ["hydro_dam"],
+    "name": "Dam Height Threshold",
+    "description": "Dam with a height of 15 metres or more creating a reservoir of 10 million m3 or more",
+    "regulatory_ref": "Physical Activities Regulations SOR/2019-285, s. 14",
+    "metric": "dam_height_m",
+    "threshold_value": 15,
+    "comparison": "greater_than_or_equal"
+  }
+]

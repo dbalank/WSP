@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pipeline_gas",
+    "name": "Natural Gas Pipeline",
+    "category": "Pipeline",
+    "subtypes": ["Transmission", "Gathering", "Distribution"],
+    "typical_components": ["Pipeline", "Compressor Stations", "Metering Stations", "River Crossings", "Access Roads"],
+    "typical_activities": ["ROW Clearing", "Trenching", "Pipe Welding", "Hydrostatic Testing", "Reclamation"],
+    "regulatory_framework": "Impact Assessment Act (2019), Physical Activities Regulations SOR/2019-285"
+  },
+  {
+    "id": "pipeline_oil",
+    "name": "Oil Pipeline",
+    "category": "Pipeline",
+    "subtypes": ["Crude Oil", "Refined Products", "Diluent"],
+    "typical_components": ["Pipeline", "Pump Stations", "Tank Farms", "Marine Terminal"],
+    "typical_activities": ["ROW Clearing", "Trenching", "HDD Crossings", "Tank Construction"],
+    "regulatory_framework": "Impact Assessment Act (2019), CER Act"
+  },
+  {
+    "id": "mine_metal",
+    "name": "Metal Mine",
+    "category": "Mining",
+    "subtypes": ["Open Pit", "Underground", "In-Situ"],
+    "typical_components": ["Open Pit", "Processing Plant", "Tailings Facility", "Waste Rock Storage"],
+    "typical_activities": ["Site Clearing", "Excavation", "Ore Processing", "Tailings Management"],
+    "regulatory_framework": "Impact Assessment Act (2019), Metal Mining Effluent Regulations"
+  },
+  {
+    "id": "wind_farm",
+    "name": "Wind Energy Facility",
+    "category": "Renewable Energy",
+    "subtypes": ["Onshore", "Offshore"],
+    "typical_components": ["Wind Turbines", "Substation", "Transmission Line", "Access Roads"],
+    "typical_activities": ["Foundation Construction", "Turbine Assembly", "Cable Laying"],
+    "regulatory_framework": "Provincial Environmental Assessment Acts"
+  },
+  {
+    "id": "hydro_dam",
+    "name": "Hydroelectric Dam",
+    "category": "Renewable Energy",
+    "subtypes": ["Storage", "Run-of-River", "Pumped Storage"],
+    "typical_components": ["Dam Structure", "Reservoir", "Powerhouse", "Transmission Line", "Fish Passage"],
+    "typical_activities": ["River Diversion", "Dam Construction", "Reservoir Filling", "Habitat Compensation"],
+    "regulatory_framework": "Impact Assessment Act (2019), Fisheries Act"
+  },
+  {
+    "id": "lng_terminal",
+    "name": "LNG Terminal",
+    "category": "Oil & Gas Processing",
+    "subtypes": ["Export", "Import", "Floating"],
+    "typical_components": ["Liquefaction Plant", "Storage Tanks", "Marine Terminal", "Jetty"],
+    "typical_activities": ["Site Preparation", "Equipment Installation", "Marine Construction"],
+    "regulatory_framework": "Impact Assessment Act (2019), CER Act"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "reports": [
+    {
+      "id": "hist_001",
+      "project_name": "Coastal Wind Energy Park Phase 1",
+      "project_type": "wind_energy",
+      "province": "British Columbia",
+      "year": 2023,
+      "outcome": "screening_required",
+      "key_vecs": ["bird_migration_routes", "marine_habitat", "visual_landscape", "noise_sensitive_receptors"],
+      "key_impacts": ["avian_collision_risk", "construction_noise", "visual_impact", "seabed_disturbance"],
+      "key_mitigations": ["Turbine shutdown protocols during peak migration", "Marine mammal exclusion zones", "Landscape screening"],
+      "decision_criteria": {
+        "triggers_met": 2,
+        "critical_impacts": 1,
+        "mitigation_confidence": 0.78
+      },
+      "section_count": 8,
+      "word_count": 12500
+    },
+    {
+      "id": "hist_002",
+      "project_name": "Northern Pipeline Connector",
+      "project_type": "natural_gas_pipeline",
+      "province": "Alberta",
+      "year": 2024,
+      "outcome": "screening_required",
+      "key_vecs": ["caribou_habitat", "wetlands", "indigenous_land_use", "groundwater"],
+      "key_impacts": ["habitat_fragmentation", "wetland_loss", "traditional_land_use_disruption", "groundwater_contamination_risk"],
+      "key_mitigations": ["Caribou habitat offset programme", "Horizontal directional drilling at wetlands", "Indigenous benefit agreements"],
+      "decision_criteria": {
+        "triggers_met": 3,
+        "critical_impacts": 2,
+        "mitigation_confidence": 0.72
+      },
+      "section_count": 10,
+      "word_count": 18200
+    },
+    {
+      "id": "hist_003",
+      "project_name": "Small Hydro Run-of-River Project",
+      "project_type": "hydroelectric",
+      "province": "British Columbia",
+      "year": 2024,
+      "outcome": "exempt",
+      "key_vecs": ["fish_habitat", "riparian_areas"],
+      "key_impacts": ["minor_flow_alteration"],
+      "key_mitigations": ["Fish-friendly intake screens"],
+      "decision_criteria": {
+        "triggers_met": 0,
+        "critical_impacts": 0,
+        "mitigation_confidence": 0.95
+      },
+      "section_count": 4,
+      "word_count": 3200
+    },
+    {
+      "id": "hist_004",
+      "project_name": "Highland Copper-Gold Mine",
+      "project_type": "metal_mine",
+      "province": "British Columbia",
+      "year": 2023,
+      "outcome": "screening_required",
+      "key_vecs": ["fish_habitat", "groundwater", "species_at_risk", "indigenous_land_use", "air_quality"],
+      "key_impacts": ["acid_mine_drainage", "habitat_destruction", "dust_generation", "water_table_drawdown", "traditional_resource_access"],
+      "key_mitigations": ["Engineered tailings facility", "Water treatment plant", "Progressive reclamation", "Community benefit agreements"],
+      "decision_criteria": {
+        "triggers_met": 4,
+        "critical_impacts": 3,
+        "mitigation_confidence": 0.65
+      },
+      "section_count": 12,
+      "word_count": 24300
+    },
+    {
+      "id": "hist_005",
+      "project_name": "Solar Farm Municipal Expansion",
+      "project_type": "solar_energy",
+      "province": "Ontario",
+      "year": 2025,
+      "outcome": "exempt",
+      "key_vecs": ["agricultural_land", "visual_landscape"],
+      "key_impacts": ["land_use_change", "visual_impact"],
+      "key_mitigations": ["Agrivoltaic dual-use design", "Perimeter screening"],
+      "decision_criteria": {
+        "triggers_met": 0,
+        "critical_impacts": 0,
+        "mitigation_confidence": 0.92
+      },
+      "section_count": 5,
+      "word_count": 4100
+    }
+  ]
+}

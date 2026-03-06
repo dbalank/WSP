@@ -1,0 +1,14 @@
+[
+  {"id": "if_vegetation_clearing", "name": "Vegetation Clearing", "category": "Biophysical", "description": "Removal of vegetation for ROW, laydown areas, access roads, and facility pads", "phase": "Construction"},
+  {"id": "if_watercourse_alteration", "name": "Watercourse Alteration", "category": "Aquatic", "description": "Physical alteration of stream channels, banks, and riparian areas from crossings and diversions", "phase": "Construction"},
+  {"id": "if_noise_vibration", "name": "Noise and Vibration", "category": "Physical", "description": "Equipment operation, blasting, pile driving, and traffic noise during construction", "phase": "Construction"},
+  {"id": "if_habitat_fragmentation", "name": "Habitat Fragmentation", "category": "Biophysical", "description": "Linear disturbance creating barriers and edge effects in contiguous habitat", "phase": "Operation"},
+  {"id": "if_emissions", "name": "Atmospheric Emissions", "category": "Atmospheric", "description": "GHG, NOx, SO2, PM, and VOC emissions from equipment, processing, and fugitive sources", "phase": "Operation"},
+  {"id": "if_spill_contamination", "name": "Spill and Contamination Risk", "category": "Chemical", "description": "Potential release of hydrocarbons, chemicals, or process water to soil or water", "phase": "Construction"},
+  {"id": "if_land_use_disruption", "name": "Land Use Disruption", "category": "Socioeconomic", "description": "Restriction or alteration of land access, traditional harvesting, and recreational use", "phase": "Construction"},
+  {"id": "if_erosion_sedimentation", "name": "Erosion and Sedimentation", "category": "Physical", "description": "Soil disturbance leading to erosion, sediment transport, and deposition in waterways", "phase": "Construction"},
+  {"id": "if_hydrology_change", "name": "Hydrological Regime Change", "category": "Aquatic", "description": "Changes to surface drainage patterns, groundwater flows, and water table levels", "phase": "Operation"},
+  {"id": "if_waste_generation", "name": "Waste Generation and Disposal", "category": "Chemical", "description": "Production and management of solid, liquid, and hazardous waste streams", "phase": "Construction"},
+  {"id": "if_traffic_transport", "name": "Traffic and Transportation", "category": "Socioeconomic", "description": "Increased heavy vehicle traffic on public roads and impacts to local transportation", "phase": "Construction"},
+  {"id": "if_light_pollution", "name": "Artificial Light", "category": "Physical", "description": "Night-time lighting from facilities and construction affecting wildlife behaviour and visual landscape", "phase": "Operation"}
+]
